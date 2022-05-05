@@ -60,6 +60,7 @@ public class App {
             map.put("result", result);
             return new ModelAndView(map, "compute.mustache");
 
+            
         },
                 new MustacheTemplateEngine());
     }
